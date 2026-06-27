@@ -119,7 +119,7 @@ GET /todos/:id
 Example:
 
 ```text
-http://localhost:5000/todos/6a3f6196b41efa531e144cbe
+http://localhost:5000/todos/6a3f6196b531e144cbe
 ```
 
 ### Create Todo
@@ -151,7 +151,7 @@ PUT /todos/:id
 Example:
 
 ```text
-http://localhost:5000/todos/6a3f6196b41efa531e144cbe
+http://localhost:5000/todos/6a3f61efa531e144cbe
 ```
 
 Request body:
@@ -180,7 +180,7 @@ DELETE /todos/:id
 Example:
 
 ```text
-http://localhost:5000/todos/6a3f6196b41efa531e144cbe
+http://localhost:5000/todos/6a3f619fa531e144cbe
 ```
 
 ## Todo Data Example
@@ -189,7 +189,7 @@ A todo stored in MongoDB looks like this:
 
 ```json
 {
-  "_id": "6a3f6196b41efa531e144cbe",
+  "_id": "6a3f6196b41ee144cbe",
   "title": "Build an Express API",
   "completed": false,
   "createdAt": "2026-06-27T05:37:26.898Z",
